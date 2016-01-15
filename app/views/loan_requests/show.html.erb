@@ -6,6 +6,7 @@
 <div class="container">
 
   <!-- Portfolio Item Heading -->
+  <% cache do %>
   <div class="row">
     <div class="col-lg-12">
       <h1 class="page-header pull-left"><%= @loan_request.title %>
@@ -44,6 +45,7 @@
     </div>
 
   </div>
+  <% end %>
   <!-- /.row -->
 
   <!-- Related Projects Row -->
